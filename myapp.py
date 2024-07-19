@@ -7,9 +7,9 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.datasets import fetch_california_housing
 
 st.write("""
-# Boston House Price Prediction App
+# California House Price Prediction App
 
-This app predicts the **Boston House Price**!
+This app predicts the **California House Price**!
 """)
 st.write('---')
 housing = fetch_california_housing()
